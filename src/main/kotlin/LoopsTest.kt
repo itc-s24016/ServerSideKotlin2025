@@ -1,5 +1,5 @@
 package jp.ac.it_college.std.s24016.kotlin
-//繰り返し系(while, for, repeat)
+//繰り返し系の復習(while, for, repeat)
 fun main() {
     var i = 1
 
