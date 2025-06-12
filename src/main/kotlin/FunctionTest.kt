@@ -1,5 +1,5 @@
 package jp.ac.it_college.std.s24016.kotlin
-//デバッグのステップインの使い方と単一式の場合の関数の書き方
+//デバッグ機能のステップインの使い方と単一式の場合の関数の書き方
 fun main() {
     val length = countLength("Server Side Kotlin")
     displayMessage("Server Side Kotlin: ${length}")
