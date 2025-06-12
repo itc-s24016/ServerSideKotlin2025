@@ -4,8 +4,7 @@ fun main() {
     val length = countLength("Server Side Kotlin")
     displayMessage("Server Side Kotlin: ${length}")
 }
-/*
-    【 関数の基本 】
+/* 【 関数の基本 】
     fun 関数名( 引数: 型 ): 戻り値の型
 */
 //単一式
@@ -15,8 +14,6 @@ fun countLength(str: String): Int {
     return str.length
 }
 */
-
-//println を格納してあるだけの関数
 fun displayMessage(message: String){
     println(message)
 }
