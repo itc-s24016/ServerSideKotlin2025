@@ -1,5 +1,5 @@
 package chap02
-//
+//関数の記述方法の復習(if)
 fun main() {
     //通常の実装方法
     printOddOrEvenNumberText(2)
@@ -19,11 +19,8 @@ fun main() {
 //通常の実装方法
 fun printOddOrEvenNumberText(num: Int){
     var text = ""
-    if (num % 2 ==1){
-        text = "奇数"
-    }else {
-        text = "偶数"
-    }
+    if (num % 2 ==1){ text = "奇数" }
+    else            { text = "偶数" }
     println(text)
 }
 //Kotlin 流の実装方法①
