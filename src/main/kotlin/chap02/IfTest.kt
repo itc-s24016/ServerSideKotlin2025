@@ -1,5 +1,5 @@
 package chap02
-//関数の記述方法の復習(if)
+//式として記述する(if)
 fun main() {
     //通常の実装方法
     printOddOrEvenNumberText(2)
