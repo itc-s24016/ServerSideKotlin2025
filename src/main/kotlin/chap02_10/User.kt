@@ -1,4 +1,3 @@
 package chap02_10
-
-class User {
-}
+//Userクラスのサンプル
+data class User(val id: Int, val teamId: Int, val name: String)
